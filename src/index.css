@@ -85,6 +85,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* 크로스 브라우징 대응용 */
+html,
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
