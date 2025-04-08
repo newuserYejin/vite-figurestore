@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import logoImg from "../assets/logo.png";
 
 const Navbar = () => {
   const menuList = ["짱구", "커비", "스누피", "산리오"];
@@ -15,7 +16,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navLogo">
-        <img src="src/assets/logo.png" alt="로고" />
+        <img src={logoImg} alt="로고" />
       </div>
       <div className="menuArea">
         <ul className="menuList">
