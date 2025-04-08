@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "img": "https://shop-phinf.pstatic.net/20250301_174/1740802316640Njoh6_JPEG/74935122383028111_2033282017.jpg?type=m510",
+      "title": "짱구는 못말려 고양이 코스프레 떡잎방범대",
+      "price": 20000,
+      "choice": true,
+      "new": true,
+      "option": ["짱구", "철수", "유리", "맹구", "훈이"],
+      "category": 1
+    },
+    {
+      "id": 1,
+      "img": "https://shop-phinf.pstatic.net/20250401_133/17434886563084Fdaf_JPEG/77621451405075068_198565798.jpg?type=o1000",
+      "title": "짱구는 못말려 기차놀이",
+      "price": 25000,
+      "choice": true,
+      "new": true,
+      "option": ["짱구", "철수", "유리", "맹구", "훈이"],
+      "category": 1
+    },
+    {
+      "id": 2,
+      "img": "https://shop-phinf.pstatic.net/20250201_272/1738406658230Vw7Ko_JPEG/22680263140386516_1787485704.jpg?type=o1000",
+      "title": "별의커비 디스커버리 5탄",
+      "price": 20000,
+      "choice": false,
+      "new": true,
+      "option": ["웨이디들", "하품", "낚시", "꿈나라"],
+      "category": 2
+    },
+    {
+      "id": 3,
+      "img": "https://shop-phinf.pstatic.net/20250117_278/1737098880477f0N3w_JPEG/71231817602895677_1356858033.jpg?type=o1000",
+      "title": "별의커비 디디디대왕 피규어",
+      "price": 8000,
+      "choice": false,
+      "new": true,
+      "option": ["디디디대왕"],
+      "category": 2
+    },
+    {
+      "id": 4,
+      "img": "https://shop-phinf.pstatic.net/20241106_135/1730886932242Ihbpa_JPEG/77605251648475303_980664259.jpg?type=o1000",
+      "title": "별의커비 기차 트레인",
+      "price": 23000,
+      "choice": true,
+      "new": false,
+      "option": ["기차 트레인"],
+      "category": 2
+    },
+    {
+      "id": 5,
+      "img": "https://shop-phinf.pstatic.net/20250401_83/1743490883016tCwKP_JPEG/61794189961449048_1022154487.jpg?type=o1000",
+      "title": "반다이 스누피 가챠 피규어",
+      "price": 30000,
+      "choice": false,
+      "new": false,
+      "option": ["우드스탁", "찰리브라운", "올라프", "스누피"],
+      "category": 3
+    },
+    {
+      "id": 6,
+      "img": "https://shop-phinf.pstatic.net/20240319_254/1710813745581TBJeI_JPEG/111949634276244603_1777806968.jpg?type=o1000",
+      "title": "스누피 랜덤 단품 미니어쳐 장식품",
+      "price": 11000,
+      "choice": true,
+      "new": false,
+      "option": ["랜덤"],
+      "category": 3
+    },
+    {
+      "id": 7,
+      "img": "https://shop-phinf.pstatic.net/20240704_104/1720059183420X2Br1_JPEG/752393687995660_175741029.jpg?type=o1000",
+      "title": "스누피 스위트 마스코트트",
+      "price": 20000,
+      "choice": false,
+      "new": true,
+      "option": ["메론소다", "초코프라페", "핫케이크", "라즈베리 케이크"],
+      "category": 3
+    },
+    {
+      "id": 8,
+      "img": "https://shop-phinf.pstatic.net/20250301_176/1740784471600VnSuU_JPEG/74917332707920410_829061281.jpg?type=o1000",
+      "title": "산리오 골판지 시계",
+      "price": 30000,
+      "choice": true,
+      "new": true,
+      "option": ["키티", "마이멜로디", "포차코", "쿠로미미"],
+      "category": 4
+    },
+    {
+      "id": 9,
+      "img": "https://shop-phinf.pstatic.net/20250123_245/1737630101206oTHLu_JPEG/71763011332968842_1363866044.jpg?type=o1000",
+      "title": "산리오 영화관 랜덤 단품",
+      "price": 9900,
+      "choice": false,
+      "new": true,
+      "option": ["랜덤"],
+      "category": 4
+    },
+    {
+      "id": 10,
+      "img": "https://shop-phinf.pstatic.net/20240731_190/17224241041352wCpQ_JPEG/9086850500115465_441125769.jpg?type=o1000",
+      "title": "산리오 가챠 피규어 꽈당 1탄",
+      "price": 10000,
+      "choice": true,
+      "new": false,
+      "option": ["헬로키티", "폼폼푸린", "시나모롤"],
+      "category": 4
+    },
+    {
+      "id": 11,
+      "img": "https://shop-phinf.pstatic.net/20240116_182/1705384614188PnuxW_JPEG/32687298072946902_21096272.jpg?type=o1000",
+      "title": "산리오 가챠 피규어 꽈당 2탄",
+      "price": 20000,
+      "choice": true,
+      "new": true,
+      "option": ["헬로키티", "쿠로미", "턱시도샘"],
+      "category": 4
+    },
+    {
+      "id": 12,
+      "img": "https://shop-phinf.pstatic.net/20240223_277/1708698639640hac6P_JPEG/109834467458551090_1859726900.jpg?type=o1000",
+      "title": "스누피 젬리스 피규어",
+      "price": 19900,
+      "choice": true,
+      "new": true,
+      "option": ["찰리브라운", "올라프", "비네트", "스누피"],
+      "category": 3
+    },
+    {
+      "id": 13,
+      "img": "https://shop-phinf.pstatic.net/20250401_137/1743488521369jt4sb_JPEG/77621313463198028_973968559.jpg?type=o1000",
+      "title": "짱구 가챠 요리 피규어",
+      "price": 20000,
+      "choice": false,
+      "new": false,
+      "option": ["짱아", "짱구", "흰둥이", "봉미선"],
+      "category": 1
+    }
+  ]
+}
