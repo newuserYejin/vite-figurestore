@@ -197,3 +197,66 @@
         }
     }
 }
+
+/* 디테일 페이지 */
+
+.productDetailBox {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    row-gap: 20px;
+
+    .detailImg {
+        border: solid 3px #f6c8c8;
+        box-sizing: border-box;
+        border-radius: 20px;
+        padding: 20px 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .productDetailInfoBox {
+        border: solid 3px #f6c8c8;
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 3% 2%;
+
+        .productStatus {
+            font-weight: bold;
+            font-size: 1.05em;
+            text-align: start;
+
+            .productNew {
+                color: #ffb703;
+            }
+
+            .productMD {
+                color: #85bff5;
+            }
+        }
+
+        .productTitle {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .productPrice {
+            color: #ffb703;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        label {
+            margin-right: 10px;
+        }
+    }
+}
