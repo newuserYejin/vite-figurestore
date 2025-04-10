@@ -5,7 +5,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import logoImg from "../assets/logo.png";
 import { useNavigate } from "react-router";
 
-const Navbar = () => {
+const Navbar = ({ auth, setAuth }) => {
   const navigate = useNavigate();
   const menuList = ["짱구", "커비", "스누피", "산리오"];
 
@@ -14,7 +14,11 @@ const Navbar = () => {
       <div>
         <div className="loginButton">
           <FontAwesomeIcon icon={faUser} />
-          <div onClick={() => navigate("/login")}>로그인</div>
+          {auth ? (
+            <div onClick={() => setAuth((prev) => !prev)}>로그아웃</div>
+          ) : (
+            <div onClick={() => navigate("/login")}>로그인</div>
+          )}
         </div>
       </div>
       <div className="navLogo">

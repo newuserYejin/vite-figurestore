@@ -4,6 +4,8 @@ import ProductAll from "./pages/ProductAll";
 import Login from "./pages/Login";
 import ProductDetail from "./pages/ProductDetail";
 import Navbar from "./components/Navbar";
+import { useEffect, useState } from "react";
+import PrivateRoute from "./route/PrivateRoute";
 
 // 페이지 3개 (전체 상품, 로그인, 상세 상품페이지)
 // 네비게이션 바 만들기
@@ -17,14 +19,20 @@ import Navbar from "./components/Navbar";
 // 검색가능
 
 function App() {
+  const [auth, setAuth] = useState(false);
+
+  useEffect(() => {
+    console.log("현재의 로그인 상태 : ", auth);
+  }, [auth]);
+
   return (
     <div>
-      <Navbar />
+      <Navbar auth={auth} setAuth={setAuth} />
       <Routes>
         <Route path="/" element={<ProductAll />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/product/:id" element={<PrivateRoute auth={auth} />} />
 
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login setAuth={setAuth} />} />
       </Routes>
     </div>
   );

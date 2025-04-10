@@ -1,8 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 const ProductCard = ({ item }) => {
+  const navigate = useNavigate();
+
+  const showDetail = () => {
+    navigate(`/product/${item.id}`);
+  };
+
   return (
-    <div className="ProductCardBox">
+    <div className="ProductCardBox" onClick={showDetail}>
       <img src={item?.img} alt="상품 이미지" />
 
       <div className="productInfo">

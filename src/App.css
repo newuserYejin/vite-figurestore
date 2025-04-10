@@ -18,6 +18,10 @@
         cursor: pointer;
     }
 
+    .loginButton:hover {
+        font-weight: bold;
+    }
+
     .navLogo {
         display: flex;
         justify-content: center;
