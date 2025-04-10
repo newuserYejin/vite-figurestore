@@ -1,3 +1,9 @@
+.appWholeContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .NavbarCss {
     background-color: #FFF1F1;
     padding: 10px;
@@ -133,6 +139,61 @@
     }
 }
 
+.placeHolderBox {
+    min-height: 250px !important;
+    margin-bottom: 20px;
+}
+
 .ProductCardBox:hover {
     transform: scale(1.05);
+}
+
+/* 로그인 페이지 */
+
+.loginContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .loginRow {
+        width: 100%;
+
+        form>div {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            label {
+                margin: 0;
+                font-weight: bold;
+                width: 20%;
+            }
+
+            input {
+                padding: 10px;
+                border: solid 2px #fddada;
+            }
+        }
+
+        button {
+            background-color: #fddada;
+            border: none;
+            font-weight: 900;
+        }
+
+        button:hover {
+            background-color: #f6c8c8;
+        }
+
+        .nullInput {
+            font-size: 0.8em;
+            color: #797979;
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            margin: 8px 0;
+        }
+    }
 }

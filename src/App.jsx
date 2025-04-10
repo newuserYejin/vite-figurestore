@@ -26,7 +26,7 @@ function App() {
   }, [auth]);
 
   return (
-    <div>
+    <div className="appWholeContainer">
       <Navbar auth={auth} setAuth={setAuth} />
       <Routes>
         <Route path="/" element={<ProductAll />} />
