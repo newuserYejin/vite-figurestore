@@ -60,6 +60,12 @@ const ProductDetail = () => {
               </select>
             </Col>
           </Row>
+
+          <Row>
+            <Col xs={6} className="productAddBtn">
+              <button>추가하기</button>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
